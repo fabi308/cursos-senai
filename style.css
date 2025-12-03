@@ -15,9 +15,15 @@ nav {
 
 
 .estrutura-caixa-card{
-    height: 300px;
-    width: 310px;
+    height: 350px;
+    width: 320px;
     border: 1px  solid black; 
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
 
 .direction{
@@ -28,8 +34,50 @@ nav {
 }
 
 .categorias{
-    display: flex;
+   display: flex;
     flex-direction: row;
    gap: 10px;
    justify-content: center;
+   background-color: #eee;
+   border-radius: 12px;
+   padding: 4px 10px;
+   font-size: 12px;
+   margin-right: 5px;
+  
 }
+.categorias p{
+   margin-bottom: 10px;
+}
+
+.botao{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+ .saber, .inscricao{
+  padding: 8px 16px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+ }
+
+ .saber{
+  background-color: white;
+  border: 1px solid red;
+  color: red;
+ }
+
+ .inscricao{
+  background: red;
+  color: white;
+ }
+
+ .carga-horaria{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 10px;
+ }
